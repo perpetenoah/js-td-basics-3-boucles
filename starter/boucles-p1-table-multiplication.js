@@ -18,3 +18,10 @@ N.B. Faites-le de deux manières différentes :
 // avec WHILE
 // Répétez le même processus avec une boucle WHILE, en demandant à nouveau la table de multiplication et le nombre de valeurs
 
+const nombre=parseInt(prompt("Donnes moi le chiffre de la table de multiplication que tu souhaites avoir"));
+
+
+for (let i=1; i<=10 ; i++  ){
+    let vc=i*nombre;
+    console.log(vc);
+}

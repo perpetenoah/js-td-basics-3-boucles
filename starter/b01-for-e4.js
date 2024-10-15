@@ -25,3 +25,9 @@
     - que se passe-t-il si vous avez déclaré i avec let ?
     - que se passe-t-il si vous déclarez i avec var ?
 */
+
+const number = parseInt(prompt("Donnes moi le chiffres de la table que tu souhaites avoir"));
+
+for (let i = 0;i<=number*10  ;i+=number){
+    console.log(i);
+}

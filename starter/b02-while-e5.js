@@ -24,7 +24,16 @@ EXEMPLE 5 :
 BONUS :
 - Après avoir quitté la boucle, affichez dans la console la chaîne complète saisie par l'utilisateur en concaténant les lettres.
 */
+let doLeave=false;
 
+while (doLeave===false){
+    let x=prompt("Entrer une lettre");
+    if (x==="x"){
+        doLeave=true;
+    } else {
+        console.log("Tapez la lettre \"x\"");
+    }
+}
 
 
 
